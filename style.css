@@ -241,17 +241,12 @@
   justify-content: end;
   align-items: end;
   gap: 8px;
-
-
 }
-.FourthInfo{
+.FourthInfo {
   font-size: 16px;
   letter-spacing: 3px;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   color: #e2e2e2;
   cursor: pointer;
-
-
 }
-
