@@ -234,7 +234,7 @@
 }
 .forthSecInfo {
   position: absolute;
-  right: 50px;
+  right: 40px;
   bottom: 80px;
   display: flex;
   flex-direction: column;
@@ -250,31 +250,29 @@
   color: #e2e2e2;
   cursor: pointer;
 }
-.fifthSection{
+.fifthSection {
   margin-top: -100px;
   height: 80vh;
   position: relative;
-
 }
-.fifthSecTitleBox{
+.fifthSecTitleBox {
   margin: 200px 100px;
   width: 480px;
 }
-.titleFifth{
+.titleFifth {
   font-size: 30px;
 }
-.infoFifth{
+.infoFifth {
   line-height: 50px;
   font-family: "Kanit", sans-serif;
   letter-spacing: 3px;
   font-size: 18px;
   font-weight: 400;
-
 }
-.descFifth{
+.descFifth {
   font-size: 15px;
 }
-.pictureinFifthSec{
+.pictureinFifthSec {
   background-color: red;
   width: 28%;
   height: 94%;
@@ -282,15 +280,14 @@
   top: -30px;
   right: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
-.ImageinFifthSec{
+.ImageinFifthSec {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.featuresMainBox{
+.featuresMainBox {
   display: flex;
   font-size: 16px;
   gap: 68px;
@@ -298,7 +295,7 @@
   top: 260px;
   right: 47%;
 }
-.featuresBox{
+.featuresBox {
   width: 160px;
   height: 200px;
   display: flex;
@@ -306,7 +303,7 @@
   align-items: center;
   justify-content: center;
 }
-.featuresBox1{
+.featuresBox1 {
   width: 160px;
   height: 200px;
   background-color: rgb(236, 236, 236);
@@ -315,7 +312,7 @@
   align-items: center;
   justify-content: center;
 }
-.arrowFeaturesBox{
+.arrowFeaturesBox {
   margin-top: 10px;
   font-size: 40px;
   opacity: 0.4;
@@ -325,7 +322,7 @@
   font-weight: 400;
   font-size: 16px;
 }
-.featuresBox1  h3 {
+.featuresBox1 h3 {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 16px;
