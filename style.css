@@ -375,8 +375,8 @@
 }
 
 .sixthSection {
-  width: 100vw;
   height: 80vh;
+  overflow: hidden;
 }
 
 .sixthSecImage {
@@ -386,7 +386,6 @@
 }
 
 .seventhSection {
-  width: 100vw;
   height: 90vh;
   background: url("/images/lastBackground2.jpg");
   background-position: top;
@@ -405,7 +404,6 @@
 }
 
 .lastSection {
-  width: 100vw;
   height: 20vh;
   background-color: rgb(57, 57, 57);
   display: flex;
