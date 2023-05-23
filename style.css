@@ -207,3 +207,51 @@
   color: rgb(111, 143, 190);
   cursor: pointer;
 }
+.FourthSection {
+  background: url("/images/pic5.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.sideBox {
+  margin-left: 60px;
+  width: 35%;
+  height: 86%;
+  background: url("/images/blackController.jpg");
+  background-size: cover;
+  background-position: top;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sideBoxTitle {
+  margin: 15px;
+  width: 170px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  font-size: 26px;
+}
+.forthSecInfo {
+  position: absolute;
+  right: 50px;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 8px;
+
+
+}
+.FourthInfo{
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  color: #e2e2e2;
+  cursor: pointer;
+
+
+}
+
