@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navBar {
@@ -137,7 +138,7 @@
 }
 
 .wrapper {
-  padding: 80px;
+  padding: 70px;
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -157,11 +158,18 @@
 }
 
 .box2 {
-  background-color: rgb(255, 255, 255);
   height: 49vh;
   width: 49vh;
   border-radius: 20px;
+  overflow: hidden;
+ 
 }
+.slider{
+  height: 49vh;
+  width: 49vh;
+  display: flex;
+  transition: 0.8s all ease-in-out;
+} 
 
 .box1Title {
   font-size: 16px;
@@ -181,13 +189,13 @@
   height: 100%;
   border-radius: 20px;
   object-fit: cover;
-}
+  }
 
 .circles {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -2px;
   gap: 10px;
 }
 
@@ -196,6 +204,9 @@
   width: 15px;
   background-color: rgb(51, 132, 167);
   border-radius: 50%;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+
 }
 
 .circle2 {
@@ -203,6 +214,10 @@
   width: 15px;
   background-color: rgb(193, 233, 250);
   border-radius: 50%;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+
+
 }
 
 .thirdsecBtn {
@@ -313,7 +328,6 @@
 }
 
 .pictureinFifthSec {
-  background-color: red;
   width: 28%;
   height: 94%;
   position: absolute;
